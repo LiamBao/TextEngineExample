@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type
+END
+DataNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/DataNode.java
+END
+OLogItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/OLogItem.java
+END
+OLogPartitionWrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/OLogPartitionWrite.java
+END
+DNPartitionUpgradeVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/DNPartitionUpgradeVersion.java
+END
+Partition.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/Partition.java
+END
+OLogPartitionClean.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/OLogPartitionClean.java
+END
+OLogPartitionDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/type/OLogPartitionDelete.java
+END

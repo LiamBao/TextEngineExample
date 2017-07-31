@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode
+END
+TEItemInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/TEItemInputStream.java
+END
+TEItemOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/TEItemOutputStream.java
+END
+DataNodeConst.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/DataNodeConst.java
+END

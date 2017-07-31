@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock
+END
+IllegalPartitionLockStatusException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock/IllegalPartitionLockStatusException.java
+END
+PartitionWriteLockManagerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock/PartitionWriteLockManagerException.java
+END
+PartitionWriteLockManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock/PartitionWriteLockManager.java
+END
+NoPartitionLockFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock/NoPartitionLockFoundException.java
+END
+PartitionAlreadyLockedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock/PartitionAlreadyLockedException.java
+END
+PartitionWriteLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/partitionlock/PartitionWriteLock.java
+END

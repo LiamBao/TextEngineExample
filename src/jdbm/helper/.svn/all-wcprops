@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper
+END
+SoftCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/SoftCache.java
+END
+ObjectBAComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/ObjectBAComparator.java
+END
+MRU.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/MRU.java
+END
+FastIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/FastIterator.java
+END
+Serializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/Serializer.java
+END
+IterationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/IterationException.java
+END
+Serialization.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/Serialization.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/package.html
+END
+DefaultSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/DefaultSerializer.java
+END
+CacheEvictionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/CacheEvictionException.java
+END
+CachePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/CachePolicy.java
+END
+WrappedRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/WrappedRuntimeException.java
+END
+Conversion.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/Conversion.java
+END
+IntegerComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/IntegerComparator.java
+END
+IntegerSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/IntegerSerializer.java
+END
+LongComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/LongComparator.java
+END
+LongSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/LongSerializer.java
+END
+CachePolicyListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/CachePolicyListener.java
+END
+Tuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/Tuple.java
+END
+ByteArrayComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/ByteArrayComparator.java
+END
+ByteArraySerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/ByteArraySerializer.java
+END
+TupleBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/TupleBrowser.java
+END
+StringComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/helper/StringComparator.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/htree
+END
+HashBucket.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/htree/HashBucket.java
+END
+HTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/htree/HTree.java
+END
+HashDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/htree/HashDirectory.java
+END
+HashNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/htree/HashNode.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/htree/package.html
+END

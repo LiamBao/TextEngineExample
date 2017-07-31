@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/btree
+END
+BTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/btree/BTree.java
+END
+BPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/btree/BPage.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/btree/package.html
+END

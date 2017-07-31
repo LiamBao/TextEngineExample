@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1357/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager
+END
+NameNodeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TextEngine/!svn/ver/1309/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/NameNodeManager.java
+END
+NameNodeManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/NameNodeManagerFactory.java
+END

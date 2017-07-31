@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/partitionprocessor
+END
+PartitionProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/partitionprocessor/PartitionProcessor.java
+END
+PartitionImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/partitionprocessor/PartitionImporter.java
+END
+SegmentCleaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/partitionprocessor/SegmentCleaner.java
+END

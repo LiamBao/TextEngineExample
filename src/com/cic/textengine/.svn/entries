@@ -1,0 +1,187 @@
+10
+
+dir
+1475
+http://192.168.1.8/svn/TextEngine/branch/TE2.4.0beta/src/com/cic/textengine
+http://192.168.1.8/svn/TextEngine
+
+
+
+2013-09-29T09:13:11.800475Z
+1475
+joe.sun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3e3da922-fd56-11db-aa55-fff1fbbeb954
+
+repository
+dir
+
+itemreader
+dir
+
+type
+dir
+
+posttrend
+dir
+
+TextRepositoryImporter.java
+file
+
+
+
+
+2011-08-09T13:06:24.000000Z
+7dc951199d8fc1ce4b3c5e451d706a11
+2007-08-26T17:44:54.326969Z
+124
+CICDATA\x5cpaul.wang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4283
+
+diagnose
+dir
+
+TextEngine.java
+file
+
+
+
+
+2011-08-09T13:06:24.000000Z
+ca5fdb6b770768094c457fe938e6ba7f
+2007-08-26T17:44:54.326969Z
+124
+CICDATA\x5cpaul.wang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6518
+
+idgenarator
+dir
+
+uitls
+dir
+
+utils
+dir
+
+idf
+dir
+
+segmentprocessor
+dir
+
+itemcollector
+dir
+
+config
+dir
+
+index
+dir
+
+partitionprocessor
+dir
+
+TEDaemon.java
+file
+
+
+
+
+2011-08-09T13:06:24.000000Z
+3fd3b40ee500337397b17fd22aaab09c
+2007-10-27T17:57:08.084700Z
+148
+CICDATA\x5cpaul.wang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7025
+
+mapfile
+dir
+
+datadelivery
+dir
+
+util
+dir
+
+client
+dir
+
+tefilter
+dir
+

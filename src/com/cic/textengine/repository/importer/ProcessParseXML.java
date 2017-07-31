@@ -1,0 +1,471 @@
+package com.cic.textengine.repository.importer;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.FilenameFilter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.nio.channels.FileChannel;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import org.apache.commons.codec.DecoderException;
+import org.apache.log4j.Logger;
+import jdbm.btree.BTree;
+import com.cic.data.Item;
+import com.cic.data.ItemMeta;
+import com.cic.textengine.idgenarator.IDGenerator;
+import com.cic.textengine.itemreader.*;
+import com.cic.textengine.repository.ItemImporter;
+import com.cic.textengine.repository.datanode.repository.PartitionEnumerator;
+import com.cic.textengine.repository.datanode.repository.PartitionWriter;
+import com.cic.textengine.repository.datanode.repository.RepositoryEngine;
+import com.cic.textengine.repository.datanode.repository.RepositoryFactory;
+import com.cic.textengine.repository.datanode.repository.exception.RepositoryEngineException;
+import com.cic.textengine.repository.exception.ItemImporterException;
+import com.cic.textengine.repository.importer.exception.ProcessParseXMLException;
+import com.cic.textengine.repository.type.ItemKey;
+import com.cic.textengine.repository.type.PartitionKey;
+import com.cic.textengine.type.TEItem;
+import com.cic.textengine.type.exception.XMLParsingException;
+import com.cic.textengine.utils.BloomFilterHelper;
+import com.cic.textengine.repository.config.Configurer;
+import java.util.Properties;
+
+public class ProcessParseXML implements ImporterProcess {
+	private static final int ITEM_BUFFER_SIZE = 5000;
+	private Logger m_logger = Logger.getLogger(ProcessParseXML.class);
+	private File m_XMLFolder_Isolution = null;
+	private File m_XMLFolder_Corrupted = null;
+	private RepositoryEngine m_localRepoEngine = null;
+	private JDBMManager jdbmMan = null;
+	
+	private boolean isBloomFilterOn = true;
+	
+	private static String TMITEMID_LOCALKEY = "localkey_tmitemid.map";
+	private int flushCount = 0;
+	private final int flushBufferSize = 5000;
+	private FileWriter fw = null;
+	private PrintWriter pw = null;
+	
+	public ProcessParseXML(File isolationPath, File corruptedPath, RepositoryEngine repoEngine)
+			throws ProcessParseXMLException {
+		m_XMLFolder_Isolution = isolationPath;
+		m_XMLFolder_Corrupted = corruptedPath;
+		m_localRepoEngine = repoEngine;
+		isBloomFilterOn = Configurer.isBloomFilterOn();
+
+	}
+	
+	public void process(ItemImporterPerformanceLogger perfLogger)
+			throws ProcessParseXMLException {
+		long timestamp_start = System.currentTimeMillis();
+
+		m_logger.debug("Init JDBM");
+		BTree parKeyBTree = null;
+
+		m_logger.info("Checking XML in isolation area...");
+		File[] isolated_xmls = m_XMLFolder_Isolution
+				.listFiles(new FilenameFilter() {
+					public boolean accept(File dir, String name) {
+						name = name.toLowerCase();
+						if (name.endsWith(".xml") || name.endsWith(".gz")) {
+							return true;
+						} else {
+							return false;
+						}
+					}
+				});
+		if (isolated_xmls.length <= 0) {
+			m_logger.info("  No XML in the isolation area, skip XML parsing.");
+			return;
+		}
+
+		try {
+			// init database instance
+			jdbmMan = JDBMManager.getInstance(ItemImporter.DATABASE);
+			parKeyBTree = jdbmMan.getBTree(ItemImporter.BTREE_PARTITION_KEY);
+		} catch (IOException e) {
+			throw new ProcessParseXMLException(e);
+		}
+		
+		try {
+			this.initPrinter();
+		} catch (IOException e3) {
+			throw new ProcessParseXMLException(e3);
+		}
+
+		m_logger.info("Cleaning local partition repository...");
+		if (!this.m_localRepoEngine.clean()) {
+			throw new ProcessParseXMLException(
+					"Fail to clean the local IDFRepository.");
+		}
+
+		m_logger.info("Cleanning local PartitionKey database...");
+		try {
+			parKeyBTree = jdbmMan.resetTable(parKeyBTree, ItemImporter.BTREE_PARTITION_KEY);
+		} catch (IOException e2) {
+			throw new ProcessParseXMLException(e2);
+		}
+
+		IDGenerator.getInstance(0);
+
+		XMLItemReader reader = null;
+
+		try {
+			reader = new XMLItemReader(m_XMLFolder_Isolution.getAbsolutePath());
+		} catch (Exception e1) {
+			throw new ProcessParseXMLException(e1);
+		}
+
+		String key = null;
+		String monthKey = null;
+
+		int year, month;
+		String siteid, forumid;
+
+		Calendar calendar = Calendar.getInstance();
+
+		Hashtable<String, ArrayList<TEItem>> buff = new Hashtable<String, ArrayList<TEItem>>();
+		Hashtable<String, ArrayList<TEItem>> bloomBuff = new Hashtable<String, ArrayList<TEItem>>();
+		TEItem teitem = null;
+
+		int count = 0;
+		int duplicatedCount = 0;
+		int unDuplicatedCount = 0;
+
+		try {
+			while (reader.next()) {
+				Item item;
+				try {
+					item = reader.getItem();
+					if (item instanceof XMLThreadItem)
+						((XMLThreadItem)item).convertTEItem();
+				} catch (Exception e) {
+					throw new ProcessParseXMLException(e);
+				}
+
+				teitem = (TEItem) item;
+
+				ItemMeta item_meta = item.getMeta();
+
+				siteid = item_meta.getSource()
+						+ Long.toString(item_meta.getSiteID());
+				forumid = item.getMeta().getForumID();
+				Date dt = new Date(item.getMeta().getDateOfPost());
+				calendar.setTime(dt);
+				year = calendar.get(Calendar.YEAR);
+				month = calendar.get(Calendar.MONTH) + 1;
+				
+				count ++;
+				
+				// fill the bloom buffer with items group by year and month
+//				PartitionKey parkey = new PartitionKey(year, month, siteid, forumid);
+				monthKey = year+"_"+month;
+				ArrayList<TEItem> item_list = bloomBuff.get(monthKey);
+				if (item_list == null) {
+					item_list = new ArrayList<TEItem>();
+					bloomBuff.put(monthKey, item_list);
+				}
+				item_list.add(teitem);
+				
+				if(count % ITEM_BUFFER_SIZE == 0){
+					m_logger.info(count + " items were parsed.");
+				}
+			}
+		} catch (XMLParsingException e1) {
+			if(e1.getItemPath() != null){
+				m_logger.error("Fail to parse xml file."+e1.getMessage());
+				try {
+					moveCorruptedXMLFile(e1.getItemPath());
+				} catch (IOException e) {
+					m_logger.error("Fail to move the corrupted file.");
+				}
+			}
+			throw new ProcessParseXMLException(e1);
+		} finally {
+			reader.close();
+		}
+		 
+
+		// remove duplicated items and flush the buff into IDF engine.
+		if (bloomBuff.size() > 0) {
+			m_logger.info(count + " items were processed.");
+			for(ArrayList<TEItem> tempItemList: bloomBuff.values()){
+				for(TEItem tempItem : tempItemList){
+					String tempSiteid = tempItem.getMeta().getSource() + Long.toString(tempItem.getMeta().getSiteID());
+					String tempForumid = tempItem.getMeta().getForumID();
+					Date tempDt = new Date(tempItem.getMeta().getDateOfPost());
+					calendar.setTime(tempDt);
+					int tempYear = calendar.get(Calendar.YEAR);
+					int tempMonth = calendar.get(Calendar.MONTH) + 1;
+					
+					// build key: Do NOT change this unless you change the
+					// decoding of key
+					PartitionKey tempParkey = new PartitionKey(tempYear, tempMonth, tempSiteid, tempForumid);
+					
+					/* Get bloom filter for that partition 
+					 * Skip duplicated items
+					 * set the IsBloomOn option in the property file to determine 
+					 * whether the duplicated items are imported 
+					 */
+					
+					boolean duplicated = BloomFilterHelper.isDuplicated(tempParkey, tempItem);
+					if (duplicated){
+						m_logger.info(String.format("Item with digest %s is duplicated", tempItem.digest()));
+						duplicatedCount++;
+						if(isBloomFilterOn)
+							continue;
+					}
+					
+					key = tempParkey.generateStringKey();
+	
+					this.fillBuffer(buff, key, tempItem);
+					unDuplicatedCount++;
+					
+					if(unDuplicatedCount % ITEM_BUFFER_SIZE == 0){
+						try {
+							this.flushBuffer2LocalIDF(parKeyBTree, buff);
+						} catch (ItemImporterException e) {
+							throw new ProcessParseXMLException(e);
+						}
+					}
+				}
+			}
+			
+			if(buff.size() > 0){
+				try {
+					this.flushBuffer2LocalIDF(parKeyBTree, buff);
+				} catch (ItemImporterException e) {
+					throw new ProcessParseXMLException(e);
+				}
+			}
+			
+			bloomBuff.clear();
+		}
+
+		try {
+			perfLogger.logXMLParserPerformance(count, duplicatedCount, timestamp_start);
+		} catch (IOException e1) {
+			m_logger.error("Error in log the performance of parse XML.");
+		}
+
+		this.closePrinter();
+		
+		// close JDMB instance
+		try {
+			jdbmMan.close();
+		} catch (IOException e) {
+			m_logger.error("Error closing JDBM");
+		}
+
+	}
+
+	void fillBuffer(Hashtable<String, ArrayList<TEItem>> buff, String key,
+			TEItem item) {
+		ArrayList<TEItem> item_list = buff.get(key);
+		if (item_list == null) {
+			item_list = new ArrayList<TEItem>();
+			buff.put(key, item_list);
+		}
+		item_list.add(item);
+	}
+
+	/**
+	 * Flush the itemlist buff into the local IDF repository.
+	 * 
+	 * 
+	 * @param buff
+	 */
+	void flushBuffer2LocalIDF(BTree parKeyBTree,
+			Hashtable<String, ArrayList<TEItem>> buff)
+			throws ItemImporterException {
+
+		RepositoryEngine repoEngine = this.m_localRepoEngine;
+
+		m_logger.info("Flushing buff to local IDF. [" + buff.size()
+				+ " keys are included.]");
+
+		Enumeration<String> keys = buff.keys();
+		String key = null;
+		ArrayList<TEItem> item_list = null;
+
+		while (keys.hasMoreElements()) {
+			key = keys.nextElement();
+			item_list = buff.get(key);
+
+			long startItemID = 0;
+			try {
+
+				if (item_list.size() > 0) {
+					Object tempO = parKeyBTree.find(key);
+					if (tempO != null) {
+						startItemID = new Long(tempO.toString()) + 1;
+					} else {
+						parKeyBTree.insert(key, new Long(0), true);
+						startItemID = 1;
+					}
+					this.appendItems2LocalRepository(repoEngine, item_list,
+							key, startItemID);
+
+					parKeyBTree.insert(key, new Long(startItemID
+							+ item_list.size() - 1), true);
+				}
+			} catch (UnsupportedEncodingException e) {
+				throw new ItemImporterException(e);
+			} catch (IOException e) {
+				throw new ItemImporterException(e);
+			}
+		}
+		buff.clear();
+	}
+
+	/**
+	 * Append a list of items to the local repository. All items in the
+	 * item_list need to be ensured that belong to the same partition
+	 * 
+	 * @param repo
+	 * @param item_list
+	 * @throws ItemImporterException
+	 */
+	void appendItems2LocalRepository(RepositoryEngine repo,
+			ArrayList<TEItem> item_list, String key, long startItemID)
+			throws ItemImporterException {
+		if (item_list.size() > 0) {
+
+			PartitionKey parkey = null;
+			try {
+				parkey = PartitionKey.decodeStringKey(key);
+			} catch (DecoderException e1) {
+				throw new ItemImporterException(e1);
+			}
+
+			PartitionWriter partition_writer = null;
+			try {
+				partition_writer = repo.getPartitionWriter(parkey.getYear(),
+						parkey.getMonth(), parkey.getSiteID(), parkey
+								.getForumID(), startItemID);
+				int count = 0;
+				for (TEItem item : item_list) {
+
+					if (item.getMeta().getSource().startsWith("TM")) {
+						ItemKey itemkey = new ItemKey(item.getMeta()
+								.getSource(), Long.toString(item.getMeta()
+								.getSiteID()), item.getMeta().getForumID(),
+								item.getMeta().getYearOfPost(), item.getMeta()
+										.getMonthOfPost(), startItemID + count);
+						addItemKeyMap(item.getMeta().getItemID(), itemkey
+								.generateKey());
+					}
+					partition_writer.writeItem(item);
+					count ++;
+				}
+				partition_writer.flush();
+				partition_writer.close();
+			} catch (RepositoryEngineException e) {
+				throw new ItemImporterException(e);
+			}
+
+			// double check the Repository
+			PartitionEnumerator enu;
+			try {
+				enu = repo.getPartitionEnumerator(parkey.getYear(), parkey
+						.getMonth(), parkey.getSiteID(), parkey.getForumID());
+				enu.close();
+			} catch (RepositoryEngineException e) {
+				throw new ItemImporterException(e);
+			} catch (IOException e) {
+				throw new ItemImporterException(e);
+			}
+		}
+	}
+	
+	/*
+	 * move corrupted xml file to specified directory 
+	 */
+	private void moveCorruptedXMLFile(String srcFile) throws IOException {
+		
+		File src = new File(srcFile);
+
+		
+		// Create channel on the source
+		FileChannel srcChannel = new FileInputStream(src).getChannel();
+
+		// Create channel on the destination
+		FileChannel dstChannel = new FileOutputStream(this.m_XMLFolder_Corrupted.getAbsolutePath()+File.separator+src.getName()).getChannel();
+
+		// Copy file contents from source to destination
+		dstChannel.transferFrom(srcChannel, 0, srcChannel.size());
+
+		// Close the channels
+		srcChannel.close();
+		dstChannel.close();
+		
+		// Remove the source file
+		src.delete();
+		
+		m_logger.info(String.format("Corrupted file %s moved.", src));
+	}
+	
+	//** Bellow are test codes.
+	public static void main(String args[]) throws RepositoryEngineException, ProcessParseXMLException, IOException {
+		
+//		File isolation = new File("D:\\Isolation");
+//		File corrupt = new File("D:\\Corrupted");
+//		File file = new File("D:\\TERepo");
+		if(args.length < 3){
+			System.out.println("Three parameters needed: isolationDir, corruptDir, repoDir");
+			return;
+		}
+		
+		try {
+			Configurer.config(ItemImporter.ITEM_IMPORTER_PROPERTIES);
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.exit(1);
+		}
+		
+		File isolation = new File(args[0].trim());
+		File corrupt = new File(args[1].trim());
+		File file = new File(args[2].trim());
+		
+		RepositoryEngine m_localRepoEngine =RepositoryFactory.getNewRepositoryEngineInstance(file.getAbsolutePath());
+		ProcessParseXML process = new ProcessParseXML(isolation, corrupt, m_localRepoEngine);
+		ItemImporterPerformanceLogger perfLogger = new ItemImporterPerformanceLogger();
+		process.process(perfLogger);
+	}
+	
+	private synchronized void addItemKeyMap(long tmItemID, String remoteItemkey) {
+		String outStr = remoteItemkey +","+Long.toString(tmItemID);
+		pw.println(outStr);
+		this.flushCount ++;
+		if(this.flushCount == this.flushBufferSize) {
+			pw.flush();
+			this.flushCount = 0;
+		}
+	}
+	
+	private void initPrinter() throws IOException {
+		this.fw = new FileWriter(TMITEMID_LOCALKEY, true);
+		this.pw = new PrintWriter(fw);
+		this.flushCount = 0;
+	}
+	
+	private void closePrinter() {
+		this.flushCount = 0;
+		this.pw.close();
+		this.pw = null;
+		try {
+			this.fw.close();
+		} catch (IOException e) {
+			m_logger.error("Error close the file writer!");
+		}
+		this.fw = null;
+	}
+}

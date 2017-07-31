@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/TextEngine/!svn/ver/1390/branch/TE2.4.0beta/lib
+END
+jtds.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/jtds.jar
+END
+ciccore-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/ciccore-3.0.1.jar
+END
+commons-cli-2.0-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/commons-cli-2.0-SNAPSHOT.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/xercesImpl.jar
+END
+commons-daemon.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/commons-daemon.jar
+END
+commons-io-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/TextEngine/!svn/ver/1288/branch/TE2.4.0beta/lib/commons-io-2.0.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/dom4j-1.6.1.jar
+END
+log4j-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/log4j-1.2.8.jar
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/commons-codec-1.3.jar
+END
+junit-4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/junit-4.1.jar
+END
+LeoIndexEngine.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/TextEngine/!svn/ver/1346/branch/TE2.4.0beta/lib/LeoIndexEngine.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/lib/commons-logging-1.0.4.jar
+END
+dfshelper-2010-06-11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TextEngine/!svn/ver/1390/branch/TE2.4.0beta/lib/dfshelper-2010-06-11.jar
+END
+commons-io-2.0-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TextEngine/!svn/ver/1289/branch/TE2.4.0beta/lib/commons-io-2.0-sources.jar
+END
+hadoop-0.19.1-dev-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TextEngine/!svn/ver/1390/branch/TE2.4.0beta/lib/hadoop-0.19.1-dev-core.jar
+END
+lucene-core-2.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TextEngine/!svn/ver/1346/branch/TE2.4.0beta/lib/lucene-core-2.4.1.jar
+END
+cicstore-2010-06-17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/TextEngine/!svn/ver/1390/branch/TE2.4.0beta/lib/cicstore-2010-06-17.jar
+END

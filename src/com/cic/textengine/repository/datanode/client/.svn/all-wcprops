@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client
+END
+RemoteTEItemWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/RemoteTEItemWriter.java
+END
+RemoteTEItemEnumerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/RemoteTEItemEnumerator.java
+END
+DataNodeWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/DataNodeWriter.java
+END
+DataNodeClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/DataNodeClient.java
+END

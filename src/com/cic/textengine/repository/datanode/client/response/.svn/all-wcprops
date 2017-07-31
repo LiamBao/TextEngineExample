@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response
+END
+DNDaemonResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/DNDaemonResponse.java
+END
+QueryOneItemResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/QueryOneItemResponse.java
+END
+AddItemsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/AddItemsResponse.java
+END
+AssignKeyResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/AssignKeyResponse.java
+END
+GetFreeSpaceResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/GetFreeSpaceResponse.java
+END
+PingResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/PingResponse.java
+END
+QueryIDFMetaResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/QueryIDFMetaResponse.java
+END
+AddItemsByStreamResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/AddItemsByStreamResponse.java
+END
+AssignNNDaemonResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/AssignNNDaemonResponse.java
+END
+DeleteItemsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/DeleteItemsResponse.java
+END
+EnumerateItemResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/EnumerateItemResponse.java
+END
+PersistAddItemsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/PersistAddItemsResponse.java
+END
+SyncPartitionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/SyncPartitionResponse.java
+END
+DeleteItemsByConditionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/DeleteItemsByConditionResponse.java
+END
+QueryItemsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/QueryItemsResponse.java
+END
+QueryItemsByConditionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/QueryItemsByConditionResponse.java
+END
+CheckDNPartitionWriteLockResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/client/response/CheckDNPartitionWriteLockResponse.java
+END

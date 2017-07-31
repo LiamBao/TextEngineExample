@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TextEngine/!svn/ver/1427/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer
+END
+ImporterProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ImporterProcess.java
+END
+ProcessDeleteItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TextEngine/!svn/ver/1427/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessDeleteItem.java
+END
+ProcessFinishXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TextEngine/!svn/ver/1286/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessFinishXML.java
+END
+ProcessIsolateXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessIsolateXML.java
+END
+ItemImporterPerformanceLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ItemImporterPerformanceLogger.java
+END
+ProcessUploadItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessUploadItem.java
+END
+ProcessUpdatePosttrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessUpdatePosttrend.java
+END
+JDBMManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/JDBMManager.java
+END
+ProcessParseXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TextEngine/!svn/ver/1319/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessParseXML.java
+END
+ProcessUploadItemNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TextEngine/!svn/ver/1264/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessUploadItemNew.java
+END
+ProcessDataConsolidate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TextEngine/!svn/ver/1370/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/ProcessDataConsolidate.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/broadcast
+END
+BroadcastPacketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/broadcast/BroadcastPacketFactory.java
+END
+DNKeyPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/broadcast/DNKeyPacket.java
+END
+BroadcastPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/broadcast/BroadcastPacket.java
+END

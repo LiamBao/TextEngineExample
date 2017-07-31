@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/segmentprocessor
+END
+SegmentProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/segmentprocessor/SegmentProcessor.java
+END
+SegmentPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/segmentprocessor/SegmentPrinter.java
+END
+BlockMerger.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/segmentprocessor/BlockMerger.java
+END
+ItemIndexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/segmentprocessor/ItemIndexer.java
+END

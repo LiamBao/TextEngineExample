@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf
+END
+IDFEngineFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf/IDFEngineFactoryTest.java
+END
+IDFEngineThreadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf/IDFEngineThreadTest.java
+END
+PartitionThreadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf/PartitionThreadTest.java
+END
+IDFEnginePoolTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf/IDFEnginePoolTest.java
+END
+IDFEngineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf/IDFEngineTest.java
+END
+PartitionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/idf/PartitionTest.java
+END

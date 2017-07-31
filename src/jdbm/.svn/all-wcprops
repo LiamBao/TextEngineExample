@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm
+END
+RecordManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/RecordManagerFactory.java
+END
+RecordManagerProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/RecordManagerProvider.java
+END
+RecordManagerOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/RecordManagerOptions.java
+END
+RecordManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/RecordManager.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/jdbm/package.html
+END

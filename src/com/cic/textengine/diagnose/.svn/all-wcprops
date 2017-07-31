@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TextEngine/!svn/ver/1475/branch/TE2.4.0beta/src/com/cic/textengine/diagnose
+END
+ValidIsTopicPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/ValidIsTopicPost.java
+END
+PerformanceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/PerformanceTest.java
+END
+PrintPartitionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/PrintPartitionInfo.java
+END
+LogReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/LogReader.java
+END
+CleanSite.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/CleanSite.java
+END
+QueryPostTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/QueryPostTrend.java
+END
+TestBloom.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1313/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/TestBloom.java
+END
+FixInvalidParkey.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/FixInvalidParkey.java
+END
+SERADeltion.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/SERADeltion.java
+END
+DeleteOnePost.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1378/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/DeleteOnePost.java
+END
+MonthlyDataQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1384/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/MonthlyDataQuery.java
+END
+CleanPartition.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/CleanPartition.java
+END
+RestoreFileFromHDFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TextEngine/!svn/ver/1394/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/RestoreFileFromHDFS.java
+END
+RebuildBloom.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/RebuildBloom.java
+END
+PingDN.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TextEngine/!svn/ver/1334/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/PingDN.java
+END
+TestTEKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1429/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/TestTEKey.java
+END
+UpdateIsTopicPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/UpdateIsTopicPost.java
+END
+GetDNNodeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1472/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/GetDNNodeInfo.java
+END
+FindErrorPartition.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TextEngine/!svn/ver/1469/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/FindErrorPartition.java
+END
+UpdatePostTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/UpdatePostTrend.java
+END
+PrintTotalVolume.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1474/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/PrintTotalVolume.java
+END
+FixPostTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1339/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/FixPostTrend.java
+END
+DNDataLostCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1471/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/DNDataLostCheck.java
+END
+TestDecodeKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1475/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/TestDecodeKey.java
+END
+TestDeliveryError.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TextEngine/!svn/ver/1434/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/TestDeliveryError.java
+END
+ReaderDataFromIE.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1385/branch/TE2.4.0beta/src/com/cic/textengine/diagnose/ReaderDataFromIE.java
+END

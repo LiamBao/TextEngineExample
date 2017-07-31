@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TextEngine/!svn/ver/1310/branch/TE2.4.0beta/src/test/cic/textengine/repository
+END
+TestProcessDataFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TextEngine/!svn/ver/1270/branch/TE2.4.0beta/src/test/cic/textengine/repository/TestProcessDataFix.java
+END
+ProcessDeleteItemTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/repository/ProcessDeleteItemTest.java
+END
+ProcessIsolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/repository/ProcessIsolationTest.java
+END
+RepositoryAddReadItemTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/repository/RepositoryAddReadItemTest.java
+END
+TextRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/test/cic/textengine/repository/TextRepositoryTest.java
+END

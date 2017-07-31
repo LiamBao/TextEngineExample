@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemcollector
+END
+ListItemCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemcollector/ListItemCollector.java
+END
+ItemCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemcollector/ItemCollector.java
+END
+StdOutItemPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemcollector/StdOutItemPrinter.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/repository/impl
+END
+DefaultPartitionEnumeratorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/repository/impl/DefaultPartitionEnumeratorImpl.java
+END
+DefaultRepositoryEngineImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/repository/impl/DefaultRepositoryEngineImpl.java
+END
+DefaultPartitionSearcherImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/repository/impl/DefaultPartitionSearcherImpl.java
+END
+DefaultPartitionWriterImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/repository/impl/DefaultPartitionWriterImpl.java
+END

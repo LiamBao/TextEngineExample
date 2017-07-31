@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1287/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception
+END
+ImporterProcessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ImporterProcessException.java
+END
+ProcessFinishXMLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TextEngine/!svn/ver/1287/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessFinishXMLException.java
+END
+ProcessIsolationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessIsolationException.java
+END
+ProcessDeletionItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessDeletionItemException.java
+END
+ProcessUploadItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessUploadItemException.java
+END
+ProcessUpdatePosttrendException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessUpdatePosttrendException.java
+END
+ProcessIndexItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessIndexItemException.java
+END
+ProcessAddMetaInfoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessAddMetaInfoException.java
+END
+ProcessParseXMLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessParseXMLException.java
+END
+ProcessDataConsolidateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/ProcessDataConsolidateException.java
+END
+UploadTEItemNotMatchLocalTEItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/importer/exception/UploadTEItemNotMatchLocalTEItemException.java
+END

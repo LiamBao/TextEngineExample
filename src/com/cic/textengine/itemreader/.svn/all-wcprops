@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TextEngine/!svn/ver/1317/branch/TE2.4.0beta/src/com/cic/textengine/itemreader
+END
+ItemReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/ItemReader.java
+END
+XMLItemReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1317/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/XMLItemReader.java
+END
+XMLThreadItemParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/XMLThreadItemParser.java
+END
+DBItemReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/DBItemReader.java
+END
+XMLThreadItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/XMLThreadItem.java
+END
+XMLInvalidCharFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/XMLInvalidCharFilter.java
+END
+XMLItemParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/itemreader/XMLItemParser.java
+END

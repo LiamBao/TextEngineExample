@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TextEngine/!svn/ver/1293/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler
+END
+AddItemsByStreamHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/AddItemsByStreamHandler.java
+END
+AddItemsRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/AddItemsRequestHandler.java
+END
+GetFreeSpaceRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/GetFreeSpaceRequestHandler.java
+END
+PingRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/PingRequestHandler.java
+END
+DNRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/DNRequestHandler.java
+END
+AssignNNDaemonRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/AssignNNDaemonRequestHandler.java
+END
+DeleteItemsRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/DeleteItemsRequestHandler.java
+END
+EnumerateItemRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/EnumerateItemRequestHandler.java
+END
+PersistAddItemsRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/PersistAddItemsRequestHandler.java
+END
+SyncPartitionRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/SyncPartitionRequestHandler.java
+END
+DeleteItemsByConditionRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/DeleteItemsByConditionRequestHandler.java
+END
+QueryItemsRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/QueryItemsRequestHandler.java
+END
+DNRequestContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/DNRequestContext.java
+END
+QueryItemsByConditionRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/QueryItemsByConditionRequestHandler.java
+END
+CheckDNPartitionWriteLockRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/CheckDNPartitionWriteLockRequestHandler.java
+END
+AssignDNKeyRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/AssignDNKeyRequestHandler.java
+END
+QueryOneItemRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/TextEngine/!svn/ver/1293/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/requesthandler/QueryOneItemRequestHandler.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/type
+END
+DataNodeIDFStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/type/DataNodeIDFStatus.java
+END
+PartitionRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/type/PartitionRecord.java
+END
+IDFMeta.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/type/IDFMeta.java
+END
+PartitionAppendPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/type/PartitionAppendPoint.java
+END

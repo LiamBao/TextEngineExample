@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/exception
+END
+XMLParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/exception/XMLParsingException.java
+END
+TEItemSerializationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/exception/TEItemSerializationException.java
+END

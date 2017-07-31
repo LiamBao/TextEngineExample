@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1356/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon
+END
+DNSynchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TextEngine/!svn/ver/1356/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/DNSynchronizer.java
+END
+DNRequestHandlerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/DNRequestHandlerThread.java
+END
+DNDaemon.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/DNDaemon.java
+END
+MulticastSenderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/datanode/daemon/MulticastSenderThread.java
+END

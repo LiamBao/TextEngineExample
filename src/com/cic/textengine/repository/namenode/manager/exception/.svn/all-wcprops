@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/exception
+END
+IllegalNameNodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/exception/IllegalNameNodeException.java
+END
+NameNodeManagerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/exception/NameNodeManagerException.java
+END
+DataNodeIPAlreadyExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/exception/DataNodeIPAlreadyExistsException.java
+END
+NoDataNodeAvaliableForPartitionWrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/manager/exception/NoDataNodeAvaliableForPartitionWrite.java
+END

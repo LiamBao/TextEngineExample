@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type
+END
+PartitionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/PartitionInfo.java
+END
+PartitionUploadChunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/PartitionUploadChunk.java
+END
+TEItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/TEItem.java
+END
+PartitionDeleteInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/PartitionDeleteInfo.java
+END
+SegmentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/SegmentInfo.java
+END
+TEItemMeta.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/type/TEItemMeta.java
+END

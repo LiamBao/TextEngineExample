@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TextEngine/!svn/ver/1395/branch/TE2.4.0beta/src/com/cic/textengine/utils
+END
+Counting16Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/Counting16Filter.java
+END
+TEItemXMLWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/TEItemXMLWriter.java
+END
+BloomFilterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/BloomFilterFactory.java
+END
+SimpleBloomFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/SimpleBloomFilter.java
+END
+CountingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/CountingFilter.java
+END
+Digests2Bloom.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/Digests2Bloom.java
+END
+BloomFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/utils/BloomFilter.java
+END
+BloomFilterHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1395/branch/TE2.4.0beta/src/com/cic/textengine/utils/BloomFilterHelper.java
+END

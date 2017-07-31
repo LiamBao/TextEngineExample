@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TextEngine/!svn/ver/1320/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request
+END
+GetDNListForQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TextEngine/!svn/ver/1320/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNListForQueryRequest.java
+END
+GetDNClientForQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNClientForQueryRequest.java
+END
+GetDNPartitionAppendPointRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNPartitionAppendPointRequest.java
+END
+ReleasePartitionWriteLockRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/ReleasePartitionWriteLockRequest.java
+END
+NNDaemonRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/NNDaemonRequest.java
+END
+ApplyPartitionWriteLockRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/ApplyPartitionWriteLockRequest.java
+END
+GetDNAddressForQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNAddressForQueryRequest.java
+END
+UpdateDNPartitionVersionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/UpdateDNPartitionVersionRequest.java
+END
+NNPartitionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/NNPartitionRequest.java
+END
+GetDNAddressForAppendRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNAddressForAppendRequest.java
+END
+DeactivateDataNodeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/DeactivateDataNodeRequest.java
+END
+GetDNClientForWritingRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNClientForWritingRequest.java
+END
+GetNextDNPartitionOperationRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetNextDNPartitionOperationRequest.java
+END
+CleanPartitionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/CleanPartitionRequest.java
+END
+CleanNameNodeCacheRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TextEngine/!svn/ver/1309/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/CleanNameNodeCacheRequest.java
+END
+GetDNPartitionItemCountRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/request/GetDNPartitionItemCountRequest.java
+END

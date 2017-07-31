@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/idf/impl
+END
+DefaultIDFEngineImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/idf/impl/DefaultIDFEngineImpl.java
+END
+TwinIDFReaderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/idf/impl/TwinIDFReaderImpl.java
+END
+DefaultIDFReaderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/idf/impl/DefaultIDFReaderImpl.java
+END
+TwinIDFEngineImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/idf/impl/TwinIDFEngineImpl.java
+END

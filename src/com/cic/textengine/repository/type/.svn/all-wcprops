@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/repository/type
+END
+PartitionKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/repository/type/PartitionKey.java
+END
+ItemKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1369/branch/TE2.4.0beta/src/com/cic/textengine/repository/type/ItemKey.java
+END
+Writable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/type/Writable.java
+END

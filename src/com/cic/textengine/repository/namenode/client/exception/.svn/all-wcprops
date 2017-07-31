@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/exception
+END
+NameNodeClientException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/exception/NameNodeClientException.java
+END
+NameNodeClientCommunicatoinException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/client/exception/NameNodeClientCommunicatoinException.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TextEngine/!svn/ver/1435/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery
+END
+DcmisDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TextEngine/!svn/ver/1435/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery/DcmisDB.java
+END
+GlobalDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1371/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery/GlobalDB.java
+END
+DataSolidify.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1270/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery/DataSolidify.java
+END
+ProjectDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TextEngine/!svn/ver/1270/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery/ProjectDB.java
+END
+DataDelivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TextEngine/!svn/ver/1270/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery/DataDelivery.java
+END
+DataConsolidate.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TextEngine/!svn/ver/1305/branch/TE2.4.0beta/src/com/cic/textengine/datadelivery/DataConsolidate.java
+END

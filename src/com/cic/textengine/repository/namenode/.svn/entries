@@ -1,0 +1,80 @@
+10
+
+dir
+1475
+http://192.168.1.8/svn/TextEngine/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode
+http://192.168.1.8/svn/TextEngine
+
+
+
+2012-07-04T11:26:13.241258Z
+1365
+joe.sun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3e3da922-fd56-11db-aa55-fff1fbbeb954
+
+type
+dir
+
+strategy
+dir
+
+daemon
+dir
+
+dnregistry
+dir
+
+manager
+dir
+
+NameNodeConst.java
+file
+
+
+
+
+2011-11-14T10:08:09.000000Z
+7ea8962ac60138c8757fb34dca7d4cfb
+2011-11-14T06:04:54.411861Z
+1320
+joe.sun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1376
+
+client
+dir
+

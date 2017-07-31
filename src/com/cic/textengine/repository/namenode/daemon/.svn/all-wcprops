@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TextEngine/!svn/ver/1328/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/daemon
+END
+NNDaemon.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TextEngine/!svn/ver/1320/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/daemon/NNDaemon.java
+END
+NNMulticastListenerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/daemon/NNMulticastListenerThread.java
+END
+NNPartitionLockCheckThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/daemon/NNPartitionLockCheckThread.java
+END
+NNRequestHandlerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/com/cic/textengine/repository/namenode/daemon/NNRequestHandlerThread.java
+END

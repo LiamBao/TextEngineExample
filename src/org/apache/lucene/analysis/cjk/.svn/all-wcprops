@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/org/apache/lucene/analysis/cjk
+END
+CJKTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/org/apache/lucene/analysis/cjk/CJKTokenizer.java
+END
+CJKAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TextEngine/!svn/ver/1260/branch/TE2.4.0beta/src/org/apache/lucene/analysis/cjk/CJKAnalyzer.java
+END
